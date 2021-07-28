@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: rgb(0, 255, 234);
+    display: block;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.body{
+    font-family:"audiowide";
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.front{
+    margin-top: 200px;
+    font-size: 40px;
+    display:flex;
+    flex-direction:column ;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+.items{
+    padding: 20px;
+}
+button{
+    font-size: 20px;
+    font-family:"audiowide";
+    padding: 20px;
+    margin:20px;
+    border:none;
+    border-radius: 10px ;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
